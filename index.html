@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search engine</title>
+</head>
+<body>
+    <main>
+        <h1 class="offscreen">
+            A wikipedia powered search engine
+        </h1>
+        <section class="search-entry">
+            <h2 class="offscreen">
+                Search term entry
+            </h2>
+            <div class="logo" aria-hidden="true">
+                search Me!
+            </div>
+            <form id="search-bar" class="search-bar">
+                <label class="offscreen" for="search">
+                    Enter a search term or phrase
+                </label>
+                <input type="text" class="search" autocomplete="off"/>
+                <div class="none"
+                id="clear button clear" 
+                role="button"
+                tabindex="0"
+                aria-label="search tearm or phrase">
+                    X
+                </div>
+                <button id="searchButton" class="button searchButton"
+                type="submit" aria-label="Submit button">
+                    Search
+                </button>
+            </form>
+        </section>
+        <section class="result">
+            <h2 class="offscreen">
+                Search result
+            </h2>
+            <div class="statsBar">
+                <div class="stats" id="stats" aria-live="assertive">
+
+                </div>
+                <div class="searchReasults" id="searchResults">
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <span aria-hidden="true">
+                &lt;&lt;
+            </span>
+            powered by <a href="" target="_blank"></a>
+            <span aria-hidden="true">&gt;&gt;</span>
+        </p>
+    </footer>
+    <script src="./scripts/main.js/"></script>
+</body>
+</html>
