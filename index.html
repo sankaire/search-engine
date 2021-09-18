@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dist/css/styles.min.css">
     <title>Search engine</title>
 </head>
 <body>
@@ -16,7 +20,15 @@
                 Search term entry
             </h2>
             <div class="logo" aria-hidden="true">
-                search Me!
+                <span class="blue">S</span>
+                <span class="red">e</span>
+                <span class="yellow">a</span>
+                <span class="blue">r</span>
+                <span class="green">c</span>
+                <span class="red">h</span>
+                <span class="blue">M</span>
+                <span class="yellow">e</span>
+                <span class="red exclaim">!</span>
             </div>
             <form id="search-bar" class="search-bar">
                 <label class="offscreen" for="search">
@@ -28,11 +40,11 @@
                 role="button"
                 tabindex="0"
                 aria-label="search tearm or phrase">
-                    X
+                    <i class="fas fa-times"></i>
                 </div>
                 <button id="searchButton" class="button searchButton"
                 type="submit" aria-label="Submit button">
-                    Search
+                    <i class="fas fa-search blue"></i>
                 </button>
             </form>
         </section>
@@ -45,7 +57,21 @@
 
                 </div>
                 <div class="searchReasults" id="searchResults">
-
+                    <div class="resultItem">
+                        <div class="resultTitle">
+                            <a href=""></a>
+                        </div>
+                        <div class="resultContent">
+                            <div class="resultsImage">
+                                <img src="" alt="">
+                            </div>
+                            <div class="resultText">
+                                <p class="resultsDesciption">
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -55,10 +81,11 @@
             <span aria-hidden="true">
                 &lt;&lt;
             </span>
-            powered by <a href="" target="_blank"></a>
+            powered by <a href="https://www.wikipedia.org/" target="_blank">
+            wikipedia</a>
             <span aria-hidden="true">&gt;&gt;</span>
         </p>
     </footer>
     <script src="./scripts/main.js/"></script>
 </body>
-</html>
+</html> 
